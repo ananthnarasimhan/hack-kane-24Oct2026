@@ -1,0 +1,17 @@
+# KaneCLI creates these locally; they may contain evidence and environment data.
+.context/
+.testmuai/evidence/
+.testmuai/variables/*.json
+
+# Keep runtime artifacts out of version control. Requirements and deliberately
+# committed test definitions remain visible to Git.
+node_modules/
+dist/
+*.tsbuildinfo
+
+.DS_Store
+tmp/
+.testmuai/assurance.json
+.testmuai/tests/output-*/
+
+.gitdata/
