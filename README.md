@@ -37,3 +37,18 @@ OAuth session.
 - Add an application URL or start command before the first browser run. The
   current KaneCLI default URL is the KaneAI playground and should be replaced
   for this project when the target app is known.
+
+## Kane CLI in GitHub Actions
+
+The `Kane CLI browser smoke` workflow runs
+`.testmuai/tests/planner-smoke_test.md` on pull requests, pushes to `main`, and
+manual dispatches. It builds the planner, serves that checkout at
+`http://localhost:5173`, and runs the browser test against it. Kane CLI's
+recording is stored in the GitHub Actions cache so successful later runs replay
+the saved steps.
+
+Add repository Actions secrets named `LT_USERNAME` and `LT_ACCESS_KEY` before
+the workflow runs. The Kane CLI action uploads the run evidence and logs as
+workflow artifacts. Pull requests from forks are skipped because GitHub does
+not provide repository secrets to them. A cold recording cache may author the
+test and consume Kane CLI credits; subsequent runs use the cached recording.
