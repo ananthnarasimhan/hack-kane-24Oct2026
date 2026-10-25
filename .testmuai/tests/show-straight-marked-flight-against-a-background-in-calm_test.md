@@ -2,6 +2,10 @@
 assurance:
   id: t-14
   base: sha256:6e19ad9df8b9738bc2a165cb54d1fb4d4a9d702a5cb1cdf7594113e65c7495ef
+variables:
+  start_url:
+    value: https://ananthnarasimhan.github.io/hack-kane-24Oct2026/
+    secret: false
 ---
 # Show straight marked flight against a background in calm wind
 

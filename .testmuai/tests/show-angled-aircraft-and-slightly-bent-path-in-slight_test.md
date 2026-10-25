@@ -2,6 +2,10 @@
 assurance:
   id: t-13
   base: sha256:f6626e3034813ee9859648c876e66dd9f43972a3bfac679b423ea472bd5faa8a
+variables:
+  start_url:
+    value: https://ananthnarasimhan.github.io/hack-kane-24Oct2026/
+    secret: false
 ---
 # Show angled aircraft and slightly bent path in slight crosswind
 

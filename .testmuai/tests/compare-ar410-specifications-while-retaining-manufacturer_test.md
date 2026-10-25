@@ -2,6 +2,10 @@
 assurance:
   id: t-3
   base: sha256:50a10dce1585455c7e8adc7662d3f6edc535dfa5adea676a4f3d8d38a1b61b9f
+variables:
+  start_url:
+    value: https://ananthnarasimhan.github.io/hack-kane-24Oct2026/
+    secret: false
 ---
 # Compare AR410 specifications while retaining manufacturer ambiguity
 

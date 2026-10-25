@@ -2,6 +2,10 @@
 assurance:
   id: t-24
   base: sha256:24aeaa2c978f6457d9ef59fdf481c5b08605b368dd1aaab544252541f21d58c9
+variables:
+  start_url:
+    value: https://ananthnarasimhan.github.io/hack-kane-24Oct2026/
+    secret: false
 ---
 # Load mismatch fixture and inspect planner results
 

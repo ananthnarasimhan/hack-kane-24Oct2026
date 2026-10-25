@@ -14,4 +14,15 @@ tmp/
 .testmuai/assurance.json
 .testmuai/tests/output-*/
 
+# Keep only the reviewable result summaries for the selected milestone tests.
+!.testmuai/tests/output-explain-both-overvoltage-conflicts/
+.testmuai/tests/output-explain-both-overvoltage-conflicts/*
+!.testmuai/tests/output-explain-both-overvoltage-conflicts/Result.md
+!.testmuai/tests/output-load-mismatch-fixture-and-inspect-planner-results/
+.testmuai/tests/output-load-mismatch-fixture-and-inspect-planner-results/*
+!.testmuai/tests/output-load-mismatch-fixture-and-inspect-planner-results/Result.md
+!.testmuai/tests/output-load-passing-fixture-and-inspect-planner-results/
+.testmuai/tests/output-load-passing-fixture-and-inspect-planner-results/*
+!.testmuai/tests/output-load-passing-fixture-and-inspect-planner-results/Result.md
+
 .gitdata/

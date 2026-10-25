@@ -2,6 +2,10 @@
 assurance:
   id: t-27
   base: sha256:79de9820d1711df3823b997537408945f6e04010bb850da30f783e80b3fa8658
+variables:
+  start_url:
+    value: https://ananthnarasimhan.github.io/hack-kane-24Oct2026/
+    secret: false
 ---
 # Load passing fixture and inspect planner results
 

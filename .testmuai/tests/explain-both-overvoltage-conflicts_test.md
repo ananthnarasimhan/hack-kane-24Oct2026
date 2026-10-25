@@ -2,6 +2,10 @@
 assurance:
   id: t-32
   base: sha256:a8e206b1b19be860bc2cd082dbdb52b8f7cf895b7ef1422f5a201d94e41800dc
+variables:
+  start_url:
+    value: https://ananthnarasimhan.github.io/hack-kane-24Oct2026/
+    secret: false
 ---
 # Explain both overvoltage conflicts
 

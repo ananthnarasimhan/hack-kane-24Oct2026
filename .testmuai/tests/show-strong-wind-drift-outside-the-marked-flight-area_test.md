@@ -2,6 +2,10 @@
 assurance:
   id: t-11
   base: sha256:a2f1d6ba260193f58c611f0237122d8bf935d6ce4487176cd49cf70b77a716fd
+variables:
+  start_url:
+    value: https://ananthnarasimhan.github.io/hack-kane-24Oct2026/
+    secret: false
 ---
 # Show strong-wind drift outside the marked flight area
 
